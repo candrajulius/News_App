@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:clickable="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/container_image"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp">
+
+            <com.google.android.material.divider.MaterialDivider
+                android:scaleType="fitXY"
+                android:contentDescription="@string/favorite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/gray"
+                android:id="@+id/img_content"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/welcome"
+            android:textSize="18sp"
+            android:lines="2"
+            android:textStyle="bold"
+            android:id="@+id/text_title_news"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/container_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@id/container_image"
+            app:layout_constraintTop_toTopOf="@id/container_image"
+            app:layout_constraintVertical_bias="0.146" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:contentDescription="@string/welcome"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@id/text_title_news"
+            app:layout_constraintTop_toBottomOf="@id/text_title_news"
+            android:layout_width="15dp"
+            android:id="@+id/img_date"
+            android:layout_height="15dp"
+            android:src="@color/gray"/>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/text_date"
+            app:layout_constraintBottom_toBottomOf="@id/img_date"
+            app:layout_constraintStart_toEndOf="@id/img_date"
+            app:layout_constraintTop_toTopOf="@id/img_date" />
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/img_time"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="16dp"
+            android:src="@color/gray"
+            app:layout_constraintBottom_toBottomOf="@id/img_date"
+            app:layout_constraintEnd_toEndOf="@id/text_title_news"
+            app:layout_constraintHorizontal_bias="0.165"
+            app:layout_constraintStart_toEndOf="@id/text_date"
+            app:layout_constraintTop_toBottomOf="@id/text_title_news"
+            app:layout_constraintVertical_bias="0.875" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/text_time"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="5dp"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@id/img_time"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/img_time"
+            app:layout_constraintTop_toTopOf="@id/img_time"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="SmallSp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

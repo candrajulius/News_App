@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NewsAppKotlin</string>
+    <string name="welcome">Welcome Candra Julius Sinaga</string>
+    <string name="home">Home</string>
+    <string name="business">Business</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+    <string name="health">Health</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="general">General</string>
+    <string name="favorite">Favorite</string>
+    <string name="news_favorite_event">your news has been %1s favorites</string>
+    <string name="succesfully">added to</string>
+    <string name="remove">removed from</string>
+    <string name="science">Science</string>
+    <string name="timeout">Time Out</string>
+    <string name="something_wrong">Something wrong from application</string>
+    <string name="error">Terjadi kesalahan pada aplikasi</string>
+    <color name="gray">#A5A5A5</color>
+</resources>

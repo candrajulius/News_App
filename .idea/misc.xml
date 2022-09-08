@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/drawable/ic_baseline_favorite_border.xml" value="0.1" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/drawable/search_background.xml" value="0.205" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/activity_detail_layout.xml" value="0.5" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/activity_favorite.xml" value="0.2" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/fragment_home_layout.xml" value="0.18" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/item_list_news.xml" value="0.33" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/item_placeholders.xml" value="0.33" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/news_loading.xml" value="0.33" />
+        <entry key="..\:/Project/NewsAppKotlin/app/src/main/res/layout/search_fragment_bottom_sheet.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
